@@ -1,4 +1,4 @@
-import { getMedian, sum } from "../src/excercise-4/index";
+import { getMedian, getMode, sum } from "../src/excercise-4/index";
 
 describe("Exercise 4 Functions", () => {
     test("Should be return median from given array of numbers", () => {
@@ -12,4 +12,10 @@ describe("Exercise 4 Functions", () => {
 
         expect(test).toBe(19);
     });
+
+    test("Should return mode from given array of numbers", () => {
+        const test = getMode([1, 2, 1, 3, 3, 4, 5, 1, 2, 3, 5]);
+
+        expect(test).toBe(3);
+    })
 });
