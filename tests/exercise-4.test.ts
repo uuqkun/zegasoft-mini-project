@@ -1,4 +1,4 @@
-import { getMedian, getMode, sum } from "../src/excercise-4/index";
+import { getMedian, getMode, sum } from "../src/exercise-4/index";
 
 describe("Exercise 4 Functions", () => {
     test("Should be return median from given array of numbers", () => {

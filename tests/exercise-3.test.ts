@@ -1,6 +1,6 @@
-import { checkSign, fibonacci, multiplyByTwo } from "../src/excercise-3/index";
+import { checkSign, fibonacci, multiplyByTwo } from "../src/exercise-3/index";
 
-describe("Excercise 3", () => {
+describe("Exercise 3", () => {
     test("multiplyByTwo", () => {
         const test = multiplyByTwo(5);
         

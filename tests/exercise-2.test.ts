@@ -1,4 +1,4 @@
-import { countCharacters, formatNumbers, greet } from '../src/excercise-2/greet';
+import { countCharacters, formatNumbers, greet } from '../src/exercise-2/greet';
 
 describe('greet.ts functions', () => {
     it('should return a proper value', () => {

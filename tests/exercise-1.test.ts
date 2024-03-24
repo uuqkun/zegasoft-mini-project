@@ -1,5 +1,5 @@
-import { summation, subtraction, division } from "../src/excercise-1/calculation";
-import { EmployeeInterface } from "../src/excercise-1/employee";
+import { summation, subtraction, division } from "../src/exercise-1/calculation";
+import { EmployeeInterface } from "../src/exercise-1/employee";
 
 describe('calculation.ts', () => {
     it("should return a proper value", () => {
